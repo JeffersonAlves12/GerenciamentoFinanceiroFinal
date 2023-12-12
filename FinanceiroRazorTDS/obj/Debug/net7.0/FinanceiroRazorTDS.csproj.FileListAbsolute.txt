@@ -1,0 +1,104 @@
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\appsettings.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.exe
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.deps.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.runtimeconfig.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.pdb
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.AssemblyInfoInputs.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.AssemblyInfo.cs
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.csproj.CoreCompileInputs.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.FinanceiroRazorTDS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.build.FinanceiroRazorTDS.props
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinanceiroRazorTDS.props
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinanceiroRazorTDS.props
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\scopedcss\bundle\FinanceiroRazorTDS.styles.css
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\refint\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.pdb
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.genruntimeconfig.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\ref\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.RazorAssemblyInfo.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.RazorAssemblyInfo.cs
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Npgsql.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.csproj.AssemblyReference.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.csproj.CopyComplete
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.staticwebassets.runtime.json
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Humanizer.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.csproj.AssemblyReference.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.AssemblyInfoInputs.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.AssemblyInfo.cs
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.csproj.CoreCompileInputs.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.RazorAssemblyInfo.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.RazorAssemblyInfo.cs
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\refint\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.pdb
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\appsettings.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.staticwebassets.runtime.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.exe
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.deps.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.runtimeconfig.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\FinanceiroRazorTDS.pdb
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Humanizer.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Npgsql.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.FinanceiroRazorTDS.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.build.FinanceiroRazorTDS.props
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinanceiroRazorTDS.props
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.FinanceiroRazorTDS.props
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\scopedcss\bundle\FinanceiroRazorTDS.styles.css
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.csproj.CopyComplete
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\FinanceiroRazorTDS.genruntimeconfig.cache
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\obj\Debug\net7.0\ref\FinanceiroRazorTDS.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\bin\Debug\net7.0\BCrypt.Net-Next.dll

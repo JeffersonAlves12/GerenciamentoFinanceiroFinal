@@ -1,0 +1,62 @@
+@page
+@model FinanceiroRazorTDS.Pages.Categorias.Index
+
+@{
+    ViewData["Title"] = "Lista de Categorias";
+}
+
+<div class="container mt-3">
+    <div class="row mb-3">
+        <div class="col">
+            <a asp-page="/Categorias/Criar" class="btn btn-success">Criar nova Categoria</a>
+        </div>
+        <div class="col-md-4">
+            <form method="get" class="input-group">
+                <input type="text" class="form-control" asp-for="FiltroNome" placeholder="Filtrar por nome da Categoria" />
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="thead-purple">
+            <tr>
+                <th>Nome</th>
+                <th>Ícone</th>
+                <th>Descrição</th>
+                <th>Operações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var categoria in Model.Categorias)
+            {
+                <tr>
+                    <td>@categoria.NomeCategoria</td>
+                    <td>@categoria.IconeCategoria</td>
+                    <td>@categoria.DescricaoCategoria</td>
+                    <td>
+                        <a asp-page="./Visualizar" asp-route-id="@categoria.CategoriaId" class="btn btn-info btn-sm">Visualizar</a>
+                        <a asp-page="./Atualizar" asp-route-id="@categoria.CategoriaId" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="./Deletar" asp-route-id="@categoria.CategoriaId" class="btn btn-danger btn-sm">Remover</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (Model.Categorias.Any())
+    {
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                <li class="page-item @(Model.TemPaginaAnterior ? "" : "disabled")">
+                    <a class="page-link" asp-route-PaginaAtual="@(Model.PaginaAtual - 1)" asp-route-FiltroNome="@Model.FiltroNome">Anterior</a>
+                </li>
+                <li class="page-item @(Model.TemPaginaSeguinte ? "" : "disabled")">
+                    <a class="page-link" asp-route-PaginaAtual="@(Model.PaginaAtual + 1)" asp-route-FiltroNome="@Model.FiltroNome">Próxima</a>
+                </li>
+            </ul>
+        </nav>
+    }
+</div>

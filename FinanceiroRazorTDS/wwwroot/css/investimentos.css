@@ -1,0 +1,53 @@
+.investimento-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.investimento-bloco {
+    width: 25%; /* Ou qualquer outra porcentagem/largura que funcione melhor */
+
+    overflow: hidden; /* Oculta conteúdo que extrapola os limites do bloco */
+
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 23%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+.investimento-bloco form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.investimento-bloco form input {
+    flex-grow: 1;
+    max-width: calc(100% - 120px); /* Ajuste o valor conforme necessário */
+}
+
+.investimento-bloco form button {
+    white-space: nowrap; /* Evita que o texto do botão quebre em várias linhas */
+    padding: 0 10px; /* Ajuste o padding para reduzir o tamanho */
+}
+
+
+.investimento-bloco form input {
+    flex-grow: 1;
+}
+
+.investimento-bloco h3 {
+    margin-top: 0;
+}
+
+.investimento-bloco a {
+    display: block;
+    margin-top: 10px;
+}
+
+.btn-success {
+    margin-bottom: 20px;
+}

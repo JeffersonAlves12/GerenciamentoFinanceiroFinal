@@ -1,0 +1,79 @@
+    @page
+    @model FinanceiroRazorTDS.Pages.Investimentos.Index
+    @{
+        ViewData["Title"] = "Investimentos";
+    }
+
+    <head>
+        <link rel="stylesheet" href="~/css/investimentos.css" />
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    </head>
+
+    <body>
+        <a asp-page="/Investimentos/Criar" class="btn btn-success">Criar Novo Investimento</a>
+
+        <div class="investimento-container">
+            @foreach (var investimento in Model.Investimentos)
+            {
+                <div class="investimento-bloco">
+                    <h3>@investimento.Nome</h3>
+                    <p>Tipo: @Model.GetNomeTipoInvestimento(investimento.Tipo)</p>
+                    <p>Data de Compra: @investimento.DataDeCompra.ToShortDateString()</p>
+                    <p>Valor Investido: @investimento.ValorInvestido.ToString("C")</p>
+                    <p class="@Model.GetValorDiferencaCor(investimento)">Valor Atual: @Model.FormatarValorAtual(investimento)</p>
+                                <p>@Model.CalcularLucroOuPrejuizo(investimento)</p>
+
+                    <!-- Formulário para atualizar o valor atual -->
+                    <form method="post" asp-route-investimentoId="@investimento.Id" asp-route-acao="atualizarValorAtual">
+                        <input type="text" name="NovoValorAtual" placeholder="Valor Atual" />
+                        <button type="submit" class="btn btn-primary">Confirmar</button>
+                    </form>
+
+                    <!-- Formulário para aportar -->
+                    <form method="post" asp-route-investimentoId="@investimento.Id" asp-route-acao="aportar">
+                        <input type="text" name="ValorAporte" placeholder="Valor do Aporte" />
+                        <button type="submit" class="btn btn-success">Aportar</button>
+                    </form>
+
+                    <a asp-page="/Investimentos/Atualizar" asp-route-id="@investimento.Id" class="btn btn-warning">Editar</a>
+                    <a asp-page="/Investimentos/Deletar" asp-route-id="@investimento.Id" class="btn btn-danger">Deletar</a>
+                </div>
+            }
+        </div>
+
+        <div class="grafico-container">
+            <canvas id="graficoValorPorAcao"></canvas>
+            <canvas id="graficoValorPorTipo"></canvas>
+        </div>
+
+        <script>
+            var dadosValorPorAcao = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.ValoresInvestimentosPorAcao));
+            var dadosValorPorTipo = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(Model.ValoresInvestimentosPorTipo));
+
+            var ctxAcao = document.getElementById('graficoValorPorAcao').getContext('2d');
+            var graficoValorPorAcao = new Chart(ctxAcao, {
+                type: 'pie',
+                data: {
+                    labels: dadosValorPorAcao.map(x => x.nome),
+                    datasets: [{
+                        label: 'Valor por Ação',
+                        data: dadosValorPorAcao.map(x => x.valorTotal),
+                        backgroundColor: ['red', 'blue', 'green', 'yellow', 'purple'] // Customize as needed
+                    }]
+                }
+            });
+
+            var ctxTipo = document.getElementById('graficoValorPorTipo').getContext('2d');
+            var graficoValorPorTipo = new Chart(ctxTipo, {
+                type: 'pie',
+                data: {
+                    labels: dadosValorPorTipo.map(x => x.tipo),
+                    datasets: [{
+                        label: 'Valor por Tipo',
+                        data: dadosValorPorTipo.map(x => x.valorTotal),
+                        backgroundColor: ['orange', 'grey', 'cyan', 'magenta', 'lime'] // Customize as needed
+                    }]
+                }
+            });
+        </script>
+    </body>

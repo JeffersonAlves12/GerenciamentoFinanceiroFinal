@@ -1,0 +1,25 @@
+@page "/Usuarios/Deletar/{id:int}"
+@model FinanceiroRazorTDS.Pages.Usuarios.Deletar
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4">Excluir Usuário</h2>
+
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <input type="hidden" asp-for="UsuarioModel.Id"/>
+
+                <div class="alert alert-danger">
+                    Tem certeza de que deseja excluir o usuário <strong>@Model.UsuarioModel.PrimeiroNome @Model.UsuarioModel.UltimoNome</strong>?
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" class="btn btn-danger" value="Excluir">
+                    <a asp-page="/Usuarios/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,73 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\calendario.css",
+      "PackagePath": "staticwebassets\\css\\calendario.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\categorias.css",
+      "PackagePath": "staticwebassets\\css\\categorias.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\estilo.css",
+      "PackagePath": "staticwebassets\\css\\estilo.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\eventos.css",
+      "PackagePath": "staticwebassets\\css\\eventos.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\indextransacoes.css",
+      "PackagePath": "staticwebassets\\css\\indextransacoes.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\info-cards.css",
+      "PackagePath": "staticwebassets\\css\\info-cards.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\investimentos.css",
+      "PackagePath": "staticwebassets\\css\\investimentos.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\transacoes.css",
+      "PackagePath": "staticwebassets\\css\\transacoes.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\css\\visualizar-transacao.css",
+      "PackagePath": "staticwebassets\\css\\visualizar-transacao.css"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\uploads\\ContaLuz.png",
+      "PackagePath": "staticwebassets\\uploads\\ContaLuz.png"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\uploads\\Nubank.png",
+      "PackagePath": "staticwebassets\\uploads\\Nubank.png"
+    },
+    {
+      "Id": "C:\\Users\\jafel\\OneDrive\\Área de Trabalho\\Semestre 2023.2\\CC56C Tecnologia Em Desenvolvimento De Sistemas\\PROJETO-TDS\\FinanceiroRazorTDS\\wwwroot\\usuarios.css",
+      "PackagePath": "staticwebassets\\usuarios.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FinanceiroRazorTDS.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FinanceiroRazorTDS.props",
+      "PackagePath": "build\\FinanceiroRazorTDS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FinanceiroRazorTDS.props",
+      "PackagePath": "buildMultiTargeting\\FinanceiroRazorTDS.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FinanceiroRazorTDS.props",
+      "PackagePath": "buildTransitive\\FinanceiroRazorTDS.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

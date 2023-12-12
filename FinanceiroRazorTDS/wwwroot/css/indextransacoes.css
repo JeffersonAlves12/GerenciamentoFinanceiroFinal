@@ -1,0 +1,17 @@
+/* Estilo personalizado */
+input[type="text"],
+select,
+button {
+    border-radius: 0.25rem; /* Bordas arredondadas */
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0 0.5rem;
+}
+
+.table th,
+.table td {
+    background-color: white;
+    border-top: none;
+}

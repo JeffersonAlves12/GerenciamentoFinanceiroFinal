@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<script src="https://kit.fontawesome.com/41f0632842.js" crossorigin="anonymous"></script>
+    <title>Plataforma de Gerenciamento Financeiro</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <header class="bg-light p-3">
+            @await Html.PartialAsync("_MainMenuPartialPages")
+
+    </header>
+      <main role="main" class="container my-4 flex-grow-1">
+        @RenderBody()
+    </main>
+
+    <footer class="text-center mt-5">
+        2023 - Projeto TDS Jefferson Alves
+    </footer>
+
+    <!-- Bootstrap JS e Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    @RenderSection("scripts", required:false)
+</body>
+
+</html>

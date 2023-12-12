@@ -1,0 +1,47 @@
+@page
+@model FinanceiroRazorTDS.Pages.Usuarios.Index
+@{
+    ViewData["Title"] = "Lista de Usuários";
+}
+
+<h2>Lista de Usuários</h2>
+
+<a class="btn btn-primary" href="/Usuarios/Cadastrar">Cadastrar Novo Usuário</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Primeiro Nome</th>
+            <th>Último Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Moeda</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model.Usuarios)
+        {
+            <tr>
+                <td>@usuario.Id</td>
+                <td>@usuario.PrimeiroNome</td>
+                <td>@usuario.UltimoNome</td>
+                <td>@usuario.Email</td>
+                <td>@usuario.Telefone</td>
+                <td>@usuario.MoedaUsuario</td>
+                <td>
+                    <a class="btn btn-info" href="/Usuarios/Editar/@usuario.Id">Editar</a>
+                    <a class="btn btn-danger" href="/Usuarios/Deletar/@usuario.Id">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<head>
+        <link rel="stylesheet" href="~/css/usuarios.css" />
+
+</head>
+
+
+

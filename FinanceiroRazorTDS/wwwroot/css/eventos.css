@@ -1,0 +1,101 @@
+.evento-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.evento-bloco {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    width: 30%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.evento-bloco img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.status-indicator {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pago .status-indicator { background-color: green; }
+.pendente .status-indicator { background-color: yellow; }
+.ematraso .status-indicator { background-color: red; }
+.resumo-bloco {
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.resumo-pagos {
+    background-color: green;
+}
+
+.resumo-nao-pagos {
+    background-color: yellow;
+    color: black;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.info-card {
+    flex-basis: calc(50% - 20px); /* Ajuste para dois cartões por linha */
+    margin: 10px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center; /* Centraliza o texto dentro do cartão */
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+.bloco-pagos { background-color: #28a745; } /* Verde para pagos */
+.bloco-nao-pagos { background-color: #ffc107; } /* Amarelo para não pagos */
+
+@media (max-width: 768px) {
+    .info-card {
+        flex-basis: 100%; /* Cartões ocupam a largura total em dispositivos menores */
+    }
+}
+
+
+/* Estilos adicionais para manter a consistência */
+.info-card h3 {
+    margin-top: 0;
+}
+
+.info-card p {
+    margin-bottom: 0;
+}
+
+
+.bloco-pagos {
+    background-color: green;
+    color: white;
+}
+
+.bloco-nao-pagos {
+    background-color: yellow;
+    color: black;
+}

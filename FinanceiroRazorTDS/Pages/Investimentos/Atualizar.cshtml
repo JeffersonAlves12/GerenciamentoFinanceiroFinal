@@ -1,0 +1,50 @@
+@page
+@model FinanceiroRazorTDS.Pages.Investimentos.Atualizar
+@{
+    ViewData["Title"] = "Atualizar Investimento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-row">
+        <!-- Nome do Investimento -->
+        <div class="form-group col-md-6">
+            <label asp-for="Investimento.Nome" class="control-label"></label>
+            <input asp-for="Investimento.Nome" class="form-control" />
+            <span asp-validation-for="Investimento.Nome" class="text-danger"></span>
+        </div>
+
+        <!-- Tipo de Investimento -->
+        <div class="form-group col-md-6">
+            <label asp-for="Investimento.Tipo" class="control-label"></label>
+            <select asp-for="Investimento.Tipo" asp-items="Html.GetEnumSelectList<TipoInvestimento>()" class="form-control"></select>
+            <span asp-validation-for="Investimento.Tipo" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <!-- Valor Investido -->
+        <div class="form-group col-md-6">
+            <label asp-for="Investimento.ValorInvestido" class="control-label"></label>
+            <input asp-for="Investimento.ValorInvestido" class="form-control" />
+            <span asp-validation-for="Investimento.ValorInvestido" class="text-danger"></span>
+        </div>
+
+        <!-- Data de Compra -->
+        <div class="form-group col-md-6">
+            <label asp-for="Investimento.DataDeCompra" class="control-label"></label>
+            <input asp-for="Investimento.DataDeCompra" class="form-control" type="date" />
+            <span asp-validation-for="Investimento.DataDeCompra" class="text-danger"></span>
+        </div>
+    </div>
+
+    <!-- Valor Atual -->
+    <div class="form-group">
+        <label asp-for="Investimento.ValorAtual" class="control-label"></label>
+        <input asp-for="Investimento.ValorAtual" class="form-control" />
+        <span asp-validation-for="Investimento.ValorAtual" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Atualizar</button>
+</form>

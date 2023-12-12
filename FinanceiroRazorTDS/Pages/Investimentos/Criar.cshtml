@@ -1,0 +1,47 @@
+@page
+@model FinanceiroRazorTDS.Pages.Investimentos.Criar
+@{
+    ViewData["Title"] = "Criar Investimento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="InvestimentoModel.Nome" class="control-label"></label>
+            <input asp-for="InvestimentoModel.Nome" class="form-control" placeholder="Nome do Investimento" />
+            <span asp-validation-for="InvestimentoModel.Nome" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="InvestimentoModel.Tipo" class="control-label"></label>
+            <select asp-for="InvestimentoModel.Tipo" asp-items="Html.GetEnumSelectList<TipoInvestimento>()" class="form-control">
+                <option value="">Selecione o Tipo de Investimento</option>
+            </select>
+            <span asp-validation-for="InvestimentoModel.Tipo" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="InvestimentoModel.ValorInvestido" class="control-label"></label>
+            <input asp-for="InvestimentoModel.ValorInvestido" class="form-control" placeholder="Valor Investido" />
+            <span asp-validation-for="InvestimentoModel.ValorInvestido" class="text-danger"></span>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="InvestimentoModel.DataDeCompra" class="control-label"></label>
+            <input asp-for="InvestimentoModel.DataDeCompra" class="form-control" type="date" />
+            <span asp-validation-for="InvestimentoModel.DataDeCompra" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="InvestimentoModel.ValorAtual" class="control-label"></label>
+        <input asp-for="InvestimentoModel.ValorAtual" class="form-control" placeholder="Valor Atual (Opcional)" />
+        <span asp-validation-for="InvestimentoModel.ValorAtual" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Criar</button>
+</form>

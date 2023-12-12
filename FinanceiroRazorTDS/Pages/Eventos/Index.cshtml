@@ -1,0 +1,42 @@
+@page
+@model FinanceiroRazorTDS.Pages.Eventos.Index
+@{
+    ViewData["Title"] = "Eventos";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/eventos.css" />
+</head>
+
+<body>
+    <a asp-page="/Eventos/Criar" class="btn btn-success">Criar Novo Evento</a>
+    
+    <!-- Blocos de resumo -->
+        <div class="info-cards">
+        <div class="info-card bloco-pagos">
+            <h3>Eventos Pagos</h3>
+            <p>@Model.TotalPagos.ToString("C")</p>
+        </div>
+        <div class="info-card bloco-nao-pagos">
+            <h3>Eventos Não Pagos</h3>
+            <p>@Model.TotalNaoPagos.ToString("C")</p>
+        </div>
+    </div>
+
+    <div class="evento-container">
+        @foreach (var evento in Model.Eventos)
+        {
+            <div class="evento-bloco">
+<img src="@Url.Content($"~/{evento.FotoPath}")" alt="Imagem do Evento" />
+                <p>Valor: @evento.Valor.ToString("C")</p>
+            <p class="@Model.GetStatusCor(evento.Status)">
+                <span class="status-indicator"></span>
+                @evento.Status.ToString()
+                </p>
+
+                <a asp-page="/Eventos/Atualizar" asp-route-id="@evento.Id" class="btn btn-warning">Editar</a>
+                <a asp-page="/Eventos/Deletar" asp-route-id="@evento.Id" class="btn btn-danger">Deletar</a>
+            </div>
+        }
+    </div>
+</body>

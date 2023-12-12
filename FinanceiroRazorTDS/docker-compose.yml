@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  backend:
+    image: mcr.microsoft.com/dotnet/aspnet:7.0
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+    environment:
+      - ConnectionStrings__DefaultConnection=server=db;port=3306;database=financeirodb;user=root;password=Jefferson13112@
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost/ || exit 1"]
+      interval: 5m
+      timeout: 3s
+
+  frontend:
+    image: nginx:alpine
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+
+  db:
+    image: mysql:8.0.35
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_DATABASE: financeirodb
+      MYSQL_ROOT_PASSWORD: Jefferson13112@
+    volumes:
+      - db-data:/var/lib/mysql
+
+
+
+volumes:
+  db-data:

@@ -1,0 +1,65 @@
+@page
+@model FinanceiroRazorTDS.Pages.Usuarios.Cadastrar
+@{
+    ViewData["Title"] = "Cadastrar Novo Usuário";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/estilo.css" />
+    <script src="https://kit.fontawesome.com/41f0632842.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="cadastro">
+    <div id="form">
+        <form method="post">
+            <h2 class="title">Cadastrar Novo Usuário</h2>
+            <label for="PrimeiroNome">Primeiro Nome</label>
+            <div class="input">
+                <i class="fa-solid fa-user"></i>
+                <input asp-for="Usuario.PrimeiroNome" class="form-control" />
+                <span asp-validation-for="Usuario.PrimeiroNome" class="text-danger"></span>
+            </div>
+
+            <label for="UltimoNome">Último Nome</label>
+            <div class="input">
+                <input asp-for="Usuario.UltimoNome" class="form-control" />
+                <!-- Último nome é opcional, sem mensagem de validação -->
+            </div>
+
+            <label for="Email">Email</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input asp-for="Usuario.Email" class="form-control" />
+                <span asp-validation-for="Usuario.Email" class="text-danger"></span>
+            </div>
+
+            <label for="Senha">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input asp-for="Usuario.Senha" class="form-control" />
+                <span asp-validation-for="Usuario.Senha" class="text-danger"></span>
+            </div>
+
+            <label for="Telefone">Telefone</label>
+            <div class="input">
+                <input asp-for="Usuario.Telefone" class="form-control" />
+                <!-- Telefone é opcional, sem mensagem de validação -->
+            </div>
+
+            <label for="MoedaUsuario">Moeda</label>
+            <div class="input">
+                <select asp-for="Usuario.MoedaUsuario" class="form-control">
+                    <option value="">Selecione uma moeda</option>
+                    <option value="BRL">BRL</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                </select>
+            </div>
+
+            <div id="btn">
+                <button type="submit" class="btn">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+</body>

@@ -1,0 +1,69 @@
+@page
+@model FinanceiroRazorTDS.Pages.Transacoes.Criar
+
+@{
+    ViewData["Title"] = "Criar Transação";
+}
+<head>
+    <link rel="stylesheet" href="~/css/transacoes.css" />
+    <script src="https://kit.fontawesome.com/41f0632842.js" crossorigin="anonymous"></script>
+</head>
+<h2>@ViewData["Title"]</h2>
+
+<div class="container mt-5">
+    <form method="post">
+        <div class="form-group">
+            <label asp-for="Transacao.NomeTransacao" class="control-label">Nome da Transação</label>
+            <input asp-for="Transacao.NomeTransacao" class="form-control" />
+            <span asp-validation-for="Transacao.NomeTransacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Transacao.ValorTransacao" class="control-label">Valor</label>
+            <input asp-for="Transacao.ValorTransacao" class="form-control" />
+            <span asp-validation-for="Transacao.ValorTransacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Transacao.TipoTransacao" class="control-label">Tipo</label>
+            <select asp-for="Transacao.TipoTransacao" class="form-control" asp-items="Html.GetEnumSelectList<TipoTransacao>()">
+                <option value="">-- Selecione o Tipo de Transação --</option>
+            </select>
+            <span asp-validation-for="Transacao.TipoTransacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Transacao.DataTransacao" class="control-label">Data da Transação</label>
+            <input asp-for="Transacao.DataTransacao" class="form-control" type="date" />
+            <span asp-validation-for="Transacao.DataTransacao" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="SelectedCategoriaIds" class="control-label">Categorias</label>
+            <select asp-for="SelectedCategoriaIds" asp-items="@Model.CategoriaOptions" class="form-control" multiple size="5">
+                <!-- As opções são preenchidas pelo modelo de página -->
+            </select>
+            <span asp-validation-for="SelectedCategoriaIds" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+    <label asp-for="Transacao.UsuarioId" class="control-label">Usuário</label>
+    <select asp-for="Transacao.UsuarioId" asp-items="@Model.UsuarioOptions" class="form-control">
+        <option value="">-- Selecione um Usuário --</option>
+    </select>
+    <span asp-validation-for="Transacao.UsuarioId" class="text-danger"></span>
+</div>
+
+
+        <div class="form-group">
+            <label asp-for="Transacao.Descricao" class="control-label">Descrição</label>
+            <textarea asp-for="Transacao.Descricao" class="form-control"></textarea>
+            <span asp-validation-for="Transacao.Descricao" class="text-danger"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Criar</button>
+        <a asp-page="/Transacoes/Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+
+

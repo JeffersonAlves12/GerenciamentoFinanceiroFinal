@@ -1,0 +1,64 @@
+@page
+@model FinanceiroRazorTDS.Pages.Transacoes.Index
+
+@{
+    ViewData["Title"] = "Lista de Transações";
+}
+
+<div class="container mt-3">
+    <div class="row mb-3">
+        <div class="col">
+            <a asp-page="/Transacoes/Criar" class="btn btn-success">Criar nova Transação</a>
+        </div>
+        <div class="col-md-4">
+            <form method="get" class="input-group">
+                <input type="text" class="form-control" asp-for="FiltroNome" placeholder="Filtrar por nome da Transação" />
+                <div class="input-group-append">
+                    <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <table class="table table-bordered table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Nome</th>
+                <th>Valor</th>
+                <th>Tipo</th>
+                <th>Data</th>
+                <th>Operações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var transacao in Model.Transacoes)
+            {
+                <tr class="@(transacao.TipoTransacao == TipoTransacao.Entrada ? "table-success" : "table-danger")">
+                    <td>@transacao.NomeTransacao</td>
+                    <td>@transacao.ValorTransacao.ToString("C2")</td>
+                    <td>@transacao.TipoTransacao</td>
+                    <td>@transacao.DataTransacao.ToShortDateString()</td>
+                    <td>
+                        <a asp-page="./Visualizar" asp-route-id="@transacao.TransacaoId" class="btn btn-info btn-sm">Visualizar</a>
+                        <a asp-page="./Atualizar" asp-route-id="@transacao.TransacaoId" class="btn btn-warning btn-sm">Editar</a>
+                        <a asp-page="./Deletar" asp-route-id="@transacao.TransacaoId" class="btn btn-danger btn-sm">Remover</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+@if (Model.Transacoes.Any())
+{
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            <li class="page-item @(Model.TemPaginaAnterior ? "" : "disabled")">
+                <a class="page-link" asp-route-PaginaAtual="@(Model.PaginaAtual - 1)" asp-route-FiltroNome="@Model.FiltroNome">Anterior</a>
+            </li>
+            <li class="page-item @(Model.TemPaginaSeguinte ? "" : "disabled")">
+                <a class="page-link" asp-route-PaginaAtual="@(Model.PaginaAtual + 1)" asp-route-FiltroNome="@Model.FiltroNome">Próxima</a>
+            </li>
+        </ul>
+    </nav>
+}
+</div>

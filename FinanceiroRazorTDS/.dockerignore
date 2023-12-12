@@ -1,0 +1,15 @@
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/*.*suo
+**/*.*user
+**/bin/
+**/obj/
+**/out/
+**/Properties/launchSettings.json
+docker-compose*.*
+Dockerfile*
+README.md

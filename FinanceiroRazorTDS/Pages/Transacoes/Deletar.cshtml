@@ -1,0 +1,25 @@
+@page "/Transacoes/Deletar/{id:long}"
+@model FinanceiroRazorTDS.Pages.Transacoes.Deletar
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="mb-4">Excluir Transação</h2>
+            
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <input type="hidden" asp-for="TransacaoModel.TransacaoId"/>
+
+                <div class="alert alert-danger">
+                    Tem certeza de que deseja excluir a transação <strong>@Model.TransacaoModel.NomeTransacao</strong>?
+                </div>
+
+                <div class="form-group mt-3">
+                    <input type="submit" class="btn btn-danger" value="Excluir">
+                    <a asp-page="/Transacoes/Index" class="btn btn-secondary">Cancelar</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

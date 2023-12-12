@@ -1,0 +1,40 @@
+@page "{id:int}"
+@model FinanceiroRazorTDS.Pages.Transacoes.Visualizar
+
+@{
+    ViewData["Title"] = "Visualizar Transação";
+}
+
+<head>  
+    <link rel="stylesheet" href="~/css/visualizar-transacao.css" />
+</head>
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model.TransacaoModel != null)
+    {
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">@Model.TransacaoModel.NomeTransacao</h3>
+                <p class="card-text">
+                    <strong>Valor: </strong>
+                    <span class="@((Model.TransacaoModel.TipoTransacao == TipoTransacao.Saida) ? "text-danger" : "text-success")">
+                        R$ @Model.TransacaoModel.ValorTransacao.ToString("N2")
+                    </span><br />
+                    <strong>Tipo: </strong>@Model.TransacaoModel.TipoTransacao<br />
+                    <strong>Data: </strong>@Model.TransacaoModel.DataTransacao.ToShortDateString()<br />
+                    <strong>Descrição: </strong>@Model.TransacaoModel.Descricao<br />
+                    <strong>Categorias: </strong>@string.Join(", ", Model.TransacaoModel.Categorias.Select(c => c.NomeCategoria))<br />
+                    <strong>Usuário: </strong>@(Model.TransacaoModel.Usuario?.PrimeiroNome ?? "N/A")<br />
+                </p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <p>Transação não encontrada.</p>
+    }
+
+    <a asp-page="/Transacoes/Index" class="btn btn-secondary mt-3">Voltar</a>
+</div>

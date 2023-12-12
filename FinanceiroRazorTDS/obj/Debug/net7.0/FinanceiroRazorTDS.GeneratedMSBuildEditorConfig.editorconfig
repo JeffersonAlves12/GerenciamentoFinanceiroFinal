@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinanceiroRazorTDS
+build_property.RootNamespace = FinanceiroRazorTDS
+build_property.ProjectDir = C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\jafel\OneDrive\Área de Trabalho\Semestre 2023.2\CC56C Tecnologia Em Desenvolvimento De Sistemas\PROJETO-TDS\FinanceiroRazorTDS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Calendarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsZW5kYXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Categorias/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xBdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Categorias/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Categorias/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Categorias/Visualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhc1xWaXN1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Eventos/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvc1xBdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Eventos/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvc1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Eventos/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvc1xEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Eventos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXZlbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Investimentos/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZXN0aW1lbnRvc1xBdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Investimentos/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZXN0aW1lbnRvc1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Investimentos/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZXN0aW1lbnRvc1xEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Investimentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW52ZXN0aW1lbnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Shared/_MainLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Shared/_MainMenuPartialPages.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9NYWluTWVudVBhcnRpYWxQYWdlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Transacoes/Atualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY29lc1xBdHVhbGl6YXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Transacoes/Criar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY29lc1xDcmlhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Transacoes/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY29lc1xEZWxldGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Transacoes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY29lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Transacoes/Visualizar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVHJhbnNhY29lc1xWaXN1YWxpemFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Usuarios/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Usuarios/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcRGVsZXRhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Usuarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/Usuarios/LogoutModel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb3NcTG9nb3V0TW9kZWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jafel/OneDrive/Área de Trabalho/Semestre 2023.2/CC56C Tecnologia Em Desenvolvimento De Sistemas/PROJETO-TDS/FinanceiroRazorTDS/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

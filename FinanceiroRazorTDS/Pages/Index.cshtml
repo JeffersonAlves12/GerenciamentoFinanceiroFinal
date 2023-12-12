@@ -1,0 +1,46 @@
+@page
+@model FinanceiroRazorTDS.Pages.Index
+
+@{
+    ViewData["Title"] = "Página Principal";
+}
+
+<head>
+    <link rel="stylesheet" href="~/css/info-cards.css" />
+    <script src="https://kit.fontawesome.com/41f0632842.js" crossorigin="anonymous"></script>
+</head>
+
+<div class="welcome-header">
+    <h1>Bem-Vindo!!!</h1>
+    <p>Sistema de Gerenciamento Financeiro</p>
+</div>
+
+<div class="info-cards">
+    <div class="info-card bloco-1">
+        <h3>Bloco 1</h3>
+        <p>Informações adicionais...</p>
+    </div>
+    <div class="info-card bloco-2">
+        <h3>Bloco 2</h3>
+        <p>Informações adicionais...</p>
+    </div>
+      <div class="info-card bloco-3">
+        <h3>Carteiras</h3>
+        <p>@Html.Raw(Model.FormatarLucroPrejuizo(Model.LucroOuPrejuizoTotal))</p>
+    </div>
+    <div class="info-card bloco-4">
+        <h3>Bloco 4</h3>
+        <p>Informações adicionais...</p>
+    </div>
+</div>
+<style>
+    .valor-positivo {
+        color: green;
+        font-weight: bold;
+    }
+    .valor-negativo {
+        color: red;
+        font-weight: bold;
+    }
+    /* ... outros estilos ... */
+</style>

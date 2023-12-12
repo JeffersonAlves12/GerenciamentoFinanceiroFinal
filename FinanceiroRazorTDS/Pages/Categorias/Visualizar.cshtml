@@ -1,0 +1,23 @@
+@page "/Categorias/Visualizar/{id:long}"
+@model FinanceiroRazorTDS.Pages.Categorias.Visualizar
+
+@{
+    ViewData["Title"] = "Visualizar Categoria";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="categoria-detalhes">
+    <dl class="row">
+        <dt class="col-sm-3">Nome da Categoria:</dt>
+        <dd class="col-sm-9">@Model.Categoria.NomeCategoria</dd>
+
+        <dt class="col-sm-3">Ícone da Categoria:</dt>
+        <dd class="col-sm-9">@Model.Categoria.IconeCategoria</dd>
+
+        <dt class="col-sm-3">Descrição:</dt>
+        <dd class="col-sm-9">@Model.Categoria.DescricaoCategoria</dd>
+    </dl>
+
+    <a asp-page="/Categorias/Index" class="btn btn-secondary">Voltar</a>
+</div>
